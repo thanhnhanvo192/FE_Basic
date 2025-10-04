@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Câu 1 -->
+    <h2>Câu 1</h2>
+    <form action="" method="get">
+      <label for="name">Họ tên:</label> <br />
+      <input
+        type="text"
+        id="name"
+        name="fullName"
+        placeholder="Ví dụ: levana"
+      />
+      <br />
+
+      <label for="email">Email:</label> <br />
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Ví dụ: levana@gmail.com"
+      />
+      <br />
+
+      <label for="password">Mật khẩu:</label> <br />
+      <input type="password" id="password" name="password" /> <br />
+
+      <br />
+      <br />
+      <input type="submit" value="Đăng ký" />
+    </form>
+    <!-- Câu 2 -->
+    <h2>Câu 2</h2>
+    <form action="" method="get">
+      <label for="name2">Họ tên:</label><br />
+      <input type="text" id="name2" name="fullName" /><br />
+      <label for="email2">Email:</label><br />
+      <input type="email" id="email2" name="email" /><br />
+      <label for="password2">Mật khẩu:</label><br />
+      <input type="password" id="password2" name="password" /><br />
+      <label for="confirmPassword2">Xác nhận mật khẩu:</label><br />
+      <input
+        type="password"
+        id="confirmPassword2"
+        name="confirmPassword"
+      /><br />
+
+      <label>Giới tính:</label><br />
+      <input type="radio" id="male" name="sex" value="male" />
+      <label for="male">Nam</label><br />
+      <input type="radio" id="female" name="sex" value="female" />
+      <label for="female">Nữ</label><br />
+      <input type="radio" id="other" name="sex" value="other" />
+      <label for="other">Khác</label><br />
+
+      <label for="country">Quốc gia:</label><br />
+      <select id="country" name="country">
+        <option value="vietnam" selected>Việt Nam</option>
+        <option value="thailan">Thái Lan</option>
+        <option value="nhatban">Nhật Bản</option></select
+      ><br />
+      <br />
+
+      <input type="submit" value="Đăng ký" />
+    </form>
+    <!-- Câu 3 -->
+    <h2>Câu 3</h2>
+    <form action="" method="get">
+      <label for="tenSP">Tên sản phẩm:</label><br />
+      <input type="text" id="tenSP" name="tenSP" />
+      <label for="danhgia">Đánh giá:</label><br />
+      <input type="radio" id="sao5" name="danhgia" value="sao5" />
+      <label for="sao5">5 sao</label><br />
+      <input type="radio" id="sao4" name="danhgia" value="sao4" />
+      <label for="sao4">4 sao</label><br />
+      <input type="radio" id="sao3" name="danhgia" value="sao3" />
+      <label for="sao3">3 sao</label><br />
+      <input type="radio" id="sao2" name="danhgia" value="sao2" />
+      <label for="sao2">2 sao</label><br />
+      <input type="radio" id="sao1" name="danhgia" value="sao1" />
+      <label for="sao1">1 sao</label><br />
+
+      <label for="comment">Bình luận:</label><br />
+      <textarea id="comment" name="comments" rows="4"></textarea>
+      <br />
+      <br />
+      <input type="submit" value="Gửi đánh giá" />
+    </form>
+    <!-- Câu 4 -->
+    <h2>Câu 4</h2>
+    <form action="" method="get">
+      <label for="hovaten">Họ và tên:</label><br />
+      <input type="text" id="hovaten" name="fullName" /><br />
+      <label for="email4">Email:</label><br />
+      <input type="text" id="email4" name="email4" /><br />
+      <label for="messageContent">Nội dung tin nhắn:</label><br />
+      <textarea id="messageContent" rows="4" name="messageContent"></textarea>
+      <br />
+      <br />
+      <input type="submit" value="Gửi tin nhắn" />
+    </form>
+    <!-- Câu 5 -->
+    <h2>Câu 5</h2>
+    <form action="" method="get">
+      <label for="hovaten5">Họ và tên:</label><br />
+      <input type="text" id="hovaten5" name="hovaten5" /><br />
+      <label for="email5">Email:</label><br />
+      <input type="email" id="email5" name="email5" /><br />
+      <label for="ngaynhanphong">Ngày nhận phòng:</label><br />
+      <input type="date" id="ngaynhanphong" name="ngaynhanphong" /><br />
+      <label for="ngaytraphong">Ngày trả phòng:</label><br />
+      <input type="date" id="ngaytraphong" name="ngaytraphong" /><br />
+      <label for="loaiphong">Loại phòng:</label><br />
+      <select id="loaiphong" name="loaiphong">
+        <option value="phongthuong" selected>Phòng thường</option>
+        <option value="phongVIP">Phòng VIP</option>
+        <option value="phonggiadinh">Phòng gia đình</option></select
+      ><br />
+      <label for="yeucaudacbiet">Yêu cầu đặc biệt:</label><br />
+      <textarea id="yeucaudacbiet" name="yeucaudacbiet" rows="4"></textarea
+      ><br />
+      <input type="submit" value="Đặt phòng" />
+    </form>
+    <!-- Câu 6 -->
+    <h2>Câu 6</h2>
+    <form>
+      <input type="text" name="timkiem" placeholder="Nhập từ khoá..." />
+      <input type="submit" value="Tìm kiếm" />
+    </form>
+  </body>
+</html>
