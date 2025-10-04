@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .box::before {
+        content: "Nội dung trước ";
+      }
+      .box::after {
+        content: " Nội dung sau";
+      }
+      .box::first-letter {
+        font-size: 30px;
+      }
+      .box::first-line {
+        color: blueviolet;
+      }
+      *::selection {
+        background-color: palevioletred;
+        color: blueviolet;
+      }
+      ul li::marker {
+        color: red;
+      }
+      .box {
+        opacity: 0.6;
+      }
+    </style>
+    <div class="box">
+      box1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia
+      aliquam rerum recusandae eos nobis facilis debitis, et labore praesentium?
+      Dolorum ut iusto tenetur blanditiis minima aspernatur quae quasi non quas?
+    </div>
+    <ul>
+      <li>Mục 1</li>
+      <li>Mục 2</li>
+      <li>Mục 3</li>
+    </ul>
+  </body>
+</html>
