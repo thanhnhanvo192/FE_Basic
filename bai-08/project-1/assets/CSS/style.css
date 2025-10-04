@@ -1,0 +1,143 @@
+/* Header */
+.header {
+  background-color: var(--color-one);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: stretch;
+  height: 100px;
+}
+.header .inner-wrap {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 40px;
+}
+.header .inner-wrap .inner-logo a {
+  display: flex;
+  color: var(--color-two);
+  align-items: center;
+}
+.header .inner-wrap .inner-logo img {
+  width: 40px;
+  height: auto;
+  margin-right: 8px;
+}
+.header .inner-wrap .inner-logo span {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.header .inner-wrap .inner-option {
+  display: flex;
+  align-self: stretch;
+}
+.header .inner-wrap .inner-option ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0px;
+  justify-content: space-between;
+}
+.header .inner-wrap .inner-option ul li {
+  display: flex;
+  align-self: stretch;
+}
+.header .inner-wrap .inner-option ul li a {
+  color: var(--color-two);
+  align-content: center;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 0 18px;
+  align-self: stretch;
+}
+.header .inner-wrap .inner-option ul li a:hover {
+  background-color: white;
+}
+
+.header .inner-wrap .inner-social ul {
+  list-style-type: none;
+  display: flex;
+  padding-left: 0;
+}
+.header .inner-wrap .inner-social ul li {
+  margin: 0 5px;
+}
+.header .inner-wrap .inner-social ul li a {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  color: var(--color-two);
+  font-size: 22px;
+}
+/* End Header */
+
+/* Button */
+.button {
+  background-color: orange;
+  width: 170px;
+  height: 60px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-one {
+  background-color: var(--color-three);
+  color: black;
+  font-weight: 500;
+  transition: background-color 0.7s ease;
+}
+.button-one:hover {
+  background-color: white;
+}
+/* End Button */
+
+/* Section one */
+
+.section-one {
+  background-image: url("/bai-08/project-1/assets/images/background1.jpg");
+  background-size: cover;
+  background-position: center -170px;
+  position: relative;
+  background-repeat: no-repeat;
+}
+/* .section-one .inner-wrap::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.7;
+  background: rgb(0, 0, 0);
+  z-index: 1;
+} */
+.section-one .inner-wrap {
+  padding: 175px 0;
+}
+.section-one .inner-content {
+  /* display: flex; */
+}
+.section-one .inner-content h3 {
+  color: white;
+}
+.section-one .inner-content .inner-title {
+  color: white;
+  font-size: 50px;
+}
+.section-one .inner-content .inner-desc {
+  font-size: 17px;
+  font-weight: 600;
+}
+.section-one .inner-content .inner-button {
+  display: flex;
+}
+.section-one .inner-content .inner-button .button {
+  margin-right: 20px;
+}
+
+/* End Section one */
