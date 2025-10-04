@@ -1,0 +1,23 @@
+.bg-clip {
+  width: 500px;
+  height: 200px;
+  margin: 20px;
+  border: 20px dashed black;
+  padding: 50px;
+  background-color: red;
+  color: yellow;
+  background-clip: content-box;
+  text-align: center;
+}
+.bg-img {
+  width: 100%;
+  height: 500px;
+  background-image: url(img/background1.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 20px dashed black;
+  background-position: bottom right;
+  background-attachment: fixed;
+  background-origin: padding-box;
+  background-clip: padding-box;
+}
