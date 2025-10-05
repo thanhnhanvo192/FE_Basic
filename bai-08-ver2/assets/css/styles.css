@@ -71,6 +71,39 @@
   color: var(--color-one);
   font-size: 24px;
 }
+
+.header-main .inner-menu-mobi {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .header-top {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 992px) {
+  .header-main .inner-contact {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-main .inner-menu,
+  .header-main .inner-social {
+    display: none;
+  }
+  .header-main .inner-menu-mobi {
+    display: block;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
 /* End Header */
 
 /* Button */
@@ -114,6 +147,7 @@
 
 .section-one .inner-wrap {
   display: flex;
+  flex-wrap: wrap-reverse;
 }
 
 .section-one .inner-content {
@@ -134,6 +168,7 @@
 .section-one .inner-content .inner-list {
   display: flex;
   margin-bottom: 65px;
+  flex-wrap: wrap;
 }
 
 .section-one .inner-content .inner-item {
@@ -180,6 +215,38 @@
   font-size: 50px;
   font-weight: 700;
 }
+@media (max-width: 992px) {
+  .section-one .inner-content,
+  .section-one .inner-image {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .section-one .inner-content {
+    text-align: center;
+  }
+  .section-one .inner-content .inner-list .inner-item {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .section-one .inner-image .inner-sale {
+    right: 90px;
+    height: 80px;
+    width: 80px;
+  }
+  .section-one .inner-image .inner-sale span:first-child {
+    font-size: 16px;
+  }
+  .section-one .inner-image .inner-sale span:last-child {
+    font-size: 36px;
+  }
+  .section-one .inner-content .inner-title {
+    font-size: 40px;
+  }
+}
 /* End Section-one */
 
 /* Section-two */
@@ -189,6 +256,7 @@
 .section-two .inner-wrap {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .section-two .inner-box {
   width: calc(100% / 3 - 15px);
@@ -244,5 +312,17 @@
   font-size: 26px;
   margin-bottom: 20px;
   text-decoration: line-through;
+}
+@media (max-width: 992px) {
+  .section-two .inner-box {
+    width: 100%;
+    aspect-ratio: 3/1;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 576px) {
+  .section-two .inner-box {
+    aspect-ratio: 1/1;
+  }
 }
 /* End Section-two */
