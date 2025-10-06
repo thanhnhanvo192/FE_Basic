@@ -1,0 +1,65 @@
+/* Section one */
+.section-oner {
+  background-color: #f9fcf9;
+  padding: 60px;
+}
+.section-one .inner-box {
+  margin: 15px 0;
+}
+.section-one .inner-box i {
+  color: #13a05d;
+  font-size: 40px;
+}
+
+/* End Section one */
+
+/* Section two */
+.section-two .inner-header {
+  background-color: #f9fcf9;
+  text-align: center;
+}
+.section-two .inner-header .inner-title {
+  font-size: 36px;
+  font-weight: 700;
+}
+.section-two .inner-header .inner-title::after {
+  content: "";
+  display: block;
+  position: relative;
+  width: 60px;
+  height: 3px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: #13a05d;
+}
+/* .section-two .inner-header .inner-title:before {
+  content: "";
+  position: relative;
+  display: block;
+  width: 160px;
+  height: 1px;
+  background: silver;
+  left: 0;
+  right: 0;
+  bottom: 1px;
+  margin: auto;
+} */
+.section-two .inner-header .inner-desc {
+  font-size: 18px;
+  margin: 26px 0;
+}
+.section-two .inner-image img {
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 991.98px) {
+  .section-two .inner-left {
+    order: 1;
+  }
+  .section-two .inner-content {
+    margin-top: 30px;
+  }
+}
+/* End Section two */
