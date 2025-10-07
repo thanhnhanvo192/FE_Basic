@@ -443,3 +443,69 @@
   }
 }
 /* End Section-four */
+
+/* Section-five */
+.section-five {
+  background-color: #f0f2f5;
+  padding: 60px 0;
+}
+.section-five .inner-image {
+  background-image: url(/bai-08-ver2/assets/images/background2.jpg);
+  background-position: center;
+  display: flex;
+  background-size: cover;
+}
+.section-five .inner-image .inner-content {
+  width: 50%;
+  display: flex;
+  color: white;
+  padding: 20px 0;
+  padding-left: 40px;
+}
+.section-five .inner-image .inner-content .inner-desc {
+  font-size: 18px;
+  font-weight: 600;
+}
+.section-five .inner-image .inner-content i {
+  align-self: center;
+  margin-right: 10px;
+}
+.section-five .inner-image .inner-button {
+  width: 50%;
+  text-align: right;
+  align-content: center;
+  padding-right: 50px;
+}
+.section-five .inner-image .inner-button .button-three {
+  padding: 10px 35px;
+}
+@media (max-width: 992px) {
+  .section-five .inner-image {
+    display: block;
+    padding: 32px;
+  }
+  .section-five .inner-image .inner-content {
+    width: 100%;
+    padding-top: 0px;
+  }
+  .section-five .inner-image .inner-button {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .section-five .inner-image {
+    padding: 32px 0;
+  }
+  .section-five .inner-image .inner-content {
+    display: block;
+    text-align: center;
+    padding-left: 0;
+  }
+  .section-five .inner-image .inner-button {
+    display: block;
+    text-align: center;
+    padding-right: 0;
+  }
+}
+/* End Section-five */
