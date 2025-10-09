@@ -599,6 +599,11 @@
   margin: 0;
   margin-bottom: 48px;
 }
+.section-seven .inner-content .inner-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .section-seven .inner-content .inner-form .inner-textfield {
   padding: 15px 0px 15px 25px;
   border-radius: 50px;
@@ -612,5 +617,14 @@
 }
 .section-seven .button:hover {
   transition: all 0.5s;
+}
+@media (max-width: 992px) {
+  .section-seven .inner-content {
+    width: 100%;
+  }
+  .section-seven .inner-content .inner-form .inner-textfield {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
 /* End Section-seven */
