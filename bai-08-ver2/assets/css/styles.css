@@ -739,6 +739,7 @@
 }
 .section-ten .inner-wrap {
   display: flex;
+  flex-wrap: wrap;
 }
 .section-ten .inner-content {
   width: calc(500% / 12);
@@ -791,5 +792,27 @@
 .section-ten .inner-google-map {
   width: calc(700% / 12);
   height: auto;
+}
+.section-ten .inner-google-map iframe {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 992px) {
+  .section-ten .inner-content {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .section-ten .inner-google-map {
+    width: 100%;
+    aspect-ratio: 5/4;
+  }
+}
+@media (max-width: 768px) {
+  .section-ten .inner-content .inner-box {
+    text-align: center;
+  }
+  .section-ten .inner-google-map {
+    aspect-ratio: 7/8;
+  }
 }
 /* End Section-ten */
