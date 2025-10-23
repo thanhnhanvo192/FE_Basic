@@ -41,3 +41,63 @@
   color: #000;
 }
 /* End Section one */
+
+/* Section two */
+.section-two {
+  margin-top: 60px;
+}
+.section-two .inner-main {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.section-two .inner-head {
+  background: -webkit-linear-gradient(-30deg, #f57f20, #d62b08 100%);
+  text-align: center;
+  padding: 10px;
+}
+.section-two .inner-title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 32px;
+}
+.section-two .inner-body {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 0 0 10px 10px;
+}
+.section-two .inner-head .inner-title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+}
+.section-two .inner-head .inner-desc {
+  color: #fff;
+}
+.section-two .button {
+  background: -webkit-linear-gradient(-30deg, #f57f20, #d62b08 100%);
+  border: none;
+  padding: 8px 20px;
+  border-radius: 40px;
+  color: #fff;
+  font-weight: 600;
+}
+/* End Section two */
+
+/* Bai tap */
+.bai-tap {
+  margin-top: 100px;
+}
+.bai-tap .inner-main {
+  padding: 40px 0;
+  margin-bottom: 20px;
+  border-top: 3px solid rgb(21, 200, 21);
+  border-bottom: 3px solid rgb(21, 201, 21);
+}
+.bai-tap .button {
+  padding: 6px 20px;
+  border: none;
+  background-color: #5cb874;
+  color: #fff;
+  border-radius: 3px;
+}
+/* End Bai tap */
