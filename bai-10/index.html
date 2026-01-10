@@ -236,6 +236,7 @@
                         class="form-control"
                         rows="8"
                       ></textarea>
+                    </div>
                   </div>
                 </div>
                 <div class="col-xl-12 text-center">
@@ -248,6 +249,253 @@
       </div>
     </div>
     <!-- End Bai tap -->
+
+    <style>
+      .modal-form .modal-content {
+        border-radius: 12px;
+      }
+      .modal-form .modal-header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .modal-form .modal-header .close {
+        position: absolute;
+        top: 0px;
+        right: -3px;
+        background-color: #000;
+        opacity: 1;
+        color: #fff;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+      }
+      .modal-form .modal-header .close span {
+        padding: 0;
+      }
+      .modal-form .modal-header .inner-image {
+        height: 50px;
+        margin-bottom: 10px;
+      }
+      .modal-form .modal-header .inner-title {
+        font-size: 26px;
+        font-weight: 600;
+        margin: 10px 0;
+      }
+      .modal-form .modal-header .inner-desc {
+        margin: 0;
+      }
+      .modal-form .modal-body .button {
+        width: 100%;
+      }
+    </style>
+
+    <!-- Model -->
+    <!-- Button trigger modal -->
+    <button
+      type="button"
+      class="btn btn-primary"
+      data-toggle="modal"
+      data-target="#exampleModal"
+    >
+      Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div
+      class="modal fade modal-form"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <img
+              class="inner-image"
+              src="https://cdn.daca.vn/media/logo/logo.svg"
+              alt="Logo"
+            />
+            <h5 class="inner-title">Modal title</h5>
+            <p class="inner-desc">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="">
+              <div class="row">
+                <div class="col-12">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Họ và tên *"
+                    />
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Số điện thoại *"
+                    />
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Lĩnh vực kinh doanh"
+                    />
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button class="button">Gửi yêu cầu</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> -->
+        </div>
+      </div>
+    </div>
+    <!-- End Model -->
+
+    <style>
+      .col-xl-20 {
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+      }
+      @media (min-width: 1200px) {
+        .col-xl-20 {
+          -ms-flex: 0 0 20%;
+          flex: 0 0 20%;
+          max-width: 20%;
+        }
+      }
+    </style>
+
+    <!-- Tabs Product -->
+    <div class="section-three">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="inner-head">
+              <div class="inner-title"><h1>Thảm tấm đế cao su</h1></div>
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active"
+                    id="home-tab"
+                    data-toggle="tab"
+                    data-target="#home"
+                    type="button"
+                    role="tab"
+                    aria-controls="home"
+                    aria-selected="true"
+                  >
+                    Sản phẩm mới
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="profile-tab"
+                    data-toggle="tab"
+                    data-target="#profile"
+                    type="button"
+                    role="tab"
+                    aria-controls="profile"
+                    aria-selected="false"
+                  >
+                    Sản phẩm nổi bật
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="contact-tab"
+                    data-toggle="tab"
+                    data-target="#contact"
+                    type="button"
+                    role="tab"
+                    aria-controls="contact"
+                    aria-selected="false"
+                  >
+                    Khuyến mãi
+                  </button>
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-content" id="myTabContent">
+              <div
+                class="tab-pane fade show active"
+                id="home"
+                role="tabpanel"
+                aria-labelledby="home-tab"
+              >
+                <h4>Sản phẩm mới</h4>
+                <div class="row">
+                  <div class="col-xl-20 col-lg-3 col-md-6 col-sm-6 col-6">
+                    <div class="product-item">Ảnh, tiêu đề, giá...</div>
+                  </div>
+                  <div class="col-xl-20 col-lg-3 col-md-6 col-sm-6 col-6">
+                    <div class="product-item">Ảnh, tiêu đề, giá...</div>
+                  </div>
+                  <div class="col-xl-20 col-lg-3 col-md-6 col-sm-6 col-6">
+                    <div class="product-item">Ảnh, tiêu đề, giá...</div>
+                  </div>
+                  <div class="col-xl-20 col-lg-3 col-md-6 col-sm-6 col-6">
+                    <div class="product-item">Ảnh, tiêu đề, giá...</div>
+                  </div>
+                  <div class="col-xl-20 col-lg-3 col-md-6 col-sm-6 col-6">
+                    <div class="product-item">Ảnh, tiêu đề, giá...</div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="profile"
+                role="tabpanel"
+                aria-labelledby="profile-tab"
+              >
+                <h4>Sản phẩm nổi bật</h4>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="contact"
+                role="tabpanel"
+                aria-labelledby="contact-tab"
+              >
+                <h4>Khuyến mãi</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Tabs Product -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="assets/boostrap/jquery.slim.min.js"></script>

@@ -1,0 +1,81 @@
+/* Section one */
+.section-one {
+  margin-top: 50px;
+}
+.section-one .inner-box {
+  padding: 20px;
+}
+.section-one .inner-box .inner-header .inner-stt {
+  color: seagreen;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.section-one .inner-box .inner-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 100;
+}
+.section-one .inner-box .inner-desc {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #b1b6b7;
+}
+/* End Section one */
+
+/* Section two */
+.section-two {
+  margin: 50px 0;
+  background: #d8cece2b;
+  padding: 40px 0;
+}
+.section-two .inner-title h1 {
+  text-align: center;
+  font-size: 32px;
+}
+.section-two .inner-desc p {
+  text-align: center;
+  color: #b1b6b7;
+  font-size: 14px;
+}
+.section-two .inner-content .inner-box {
+  background: white;
+}
+.section-two .inner-content .inner-box .inner-img {
+  width: 100%;
+
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.section-two .inner-content .inner-box .inner-img img {
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+  display: block;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+}
+.section-two .inner-content .inner-box .inner-name {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 20px;
+}
+.section-two .inner-content .inner-box .inner-position {
+  color: #b1b6b7;
+  text-align: center;
+}
+.section-two .inner-content .inner-box .inner-position {
+  text-align: center;
+}
+.section-two .inner-content .inner-box .inner-bio {
+  text-align: center;
+  color: #b1b6b7;
+  font-size: 12px;
+}
+.section-two .inner-content .inner-box .inner-social {
+  text-align: center;
+  color: #b1b6b7;
+  margin-top: 15px;
+}
+/* End Section two */
