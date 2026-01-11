@@ -92,10 +92,20 @@
   background-color: var(--color-three);
   color: black;
   font-weight: 500;
-  transition: background-color 0.7s ease;
+  transition: background-color 1s ease;
 }
 .button-one:hover {
   background-color: white;
+}
+.button-two {
+  background: transparent;
+  color: white;
+  transition: background-color 1s ease;
+  border: var(--color-text) 1px solid;
+}
+.button-two:hover {
+  background: var(--color-three);
+  color: black;
 }
 /* End Button */
 
@@ -139,5 +149,183 @@
 .section-one .inner-content .inner-button .button {
   margin-right: 20px;
 }
-
 /* End Section one */
+
+/* Section two */
+.section-two {
+  padding: 100px 0 20px 0;
+  background: var(--color-one);
+}
+.section-two .inner-wrap .inner-content {
+  display: flex;
+}
+.section-two .inner-wrap .inner-content .inner-box {
+  width: calc(100% / 2 - 10px);
+}
+.section-two .inner-content .inner-box .inner-img {
+  width: 100%;
+  height: auto;
+}
+.section-two .inner-content .inner-box .inner-img img {
+  width: 88%;
+  height: auto;
+  border-radius: 10px;
+}
+.section-two .inner-content .inner-box:last-child {
+  padding-left: 20px;
+  padding-top: 24px;
+}
+.section-two .inner-content .inner-box:last-child .inner-note p {
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0;
+}
+.section-two .inner-content .inner-box:last-child .inner-title h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: black;
+  margin: 15px 0;
+}
+.section-two .inner-content .inner-box:last-child .inner-list {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding-top: 20px;
+}
+.section-two .inner-content .inner-box:last-child .inner-list .inner-item {
+  aspect-ratio: 1 / 1;
+  width: calc(100% / 3 - 45px);
+  height: auto;
+  background: white;
+  margin-right: 26px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-two
+  .inner-content
+  .inner-box:last-child
+  .inner-list
+  .inner-item
+  .inner-icon {
+  font-size: 36px;
+  color: #ff8484;
+}
+.section-two
+  .inner-content
+  .inner-box:last-child
+  .inner-list
+  .inner-item
+  .inner-desc
+  p {
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  line-height: 1;
+  margin: 0;
+}
+.section-two .inner-content .inner-box:last-child .inner-desc {
+  padding-top: 10px;
+}
+.section-two .inner-content .inner-box:last-child .inner-desc p {
+  font-size: 18px;
+  line-height: 1.4;
+  margin: 0;
+  margin-top: 16px;
+}
+.section-two .inner-content .inner-box:last-child .inner-button {
+  padding-top: 28px;
+}
+/* End Section two */
+
+/* Section three */
+.section-three {
+  background: var(--color-one);
+  padding: 150px 0 20px 0;
+}
+.section-three .inner-wrap .inner-content {
+  display: flex;
+}
+.section-three .inner-content .inner-box {
+  background: white;
+}
+.section-three .inner-wrap .inner-content .inner-box:first-child {
+  width: calc(100% * 7 / 10);
+  height: 100%;
+  padding: 60px;
+}
+.section-three .inner-wrap .inner-content .inner-box:last-child {
+  width: calc(100% * 3 / 10);
+}
+.section-three .inner-content .inner-box:last-child .inner-image {
+  width: 100%;
+  height: 100%;
+}
+.section-three .inner-content .inner-box:last-child .inner-image img {
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  transform: scale(1.2);
+  transform-origin: bottom;
+}
+.section-three .inner-content .inner-box .inner-note {
+  padding-bottom: 20px;
+}
+.section-three .inner-wrap .inner-content .inner-box .inner-note p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+.section-three .inner-wrap .inner-content .inner-box .inner-title h1 {
+  margin: 0;
+  font-size: 65px;
+  color: black;
+}
+/* End Section three */
+
+/* Section four */
+.section-four {
+  padding: 50px 0;
+}
+.section-four .inner-title {
+  margin: 0;
+  font-size: 26px;
+  color: black;
+}
+.section-four .inner-desc p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.6;
+}
+.section-four .inner-list {
+  display: flex;
+  padding-top: 20px;
+}
+.section-four .inner-list .inner-item {
+  width: calc(100% / 3);
+}
+.section-four .inner-list ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.section-four .inner-list ul li {
+  margin-bottom: 24px;
+  font-size: 18px;
+}
+.section-four .inner-list ul li::before {
+  content: "✓";
+  margin-right: 20px;
+  color: black;
+  background-color: var(--color-one);
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+/* End Section four */
