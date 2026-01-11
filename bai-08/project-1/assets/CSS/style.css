@@ -7,6 +7,7 @@
   display: flex;
   align-items: stretch;
   height: 100px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 .header .inner-wrap {
   height: 100%;
@@ -329,3 +330,68 @@
   border-radius: 50%;
 }
 /* End Section four */
+
+/* Section five */
+.section-five {
+  background: var(--color-one);
+  padding: 70px 0;
+}
+.section-five .inner-header .inner-title {
+  margin: 0;
+  font-size: 60px;
+  color: black;
+  text-align: center;
+}
+.section-five .inner-content {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.section-five .inner-content .inner-box {
+  background: white;
+  width: calc(100% / 3);
+  border-radius: 2%;
+  overflow: hidden;
+}
+.section-five .inner-content .inner-box .inner-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 3 / 2;
+}
+.section-five .inner-box .inner-feature {
+  padding-top: 28px;
+  padding-left: 38px;
+  padding-bottom: 45px;
+  position: relative;
+}
+.section-five .inner-box .inner-desc {
+  padding-bottom: 14px;
+}
+.section-five .inner-box .inner-desc p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 650;
+}
+.section-five .inner-box .inner-title h2 {
+  margin: 0;
+  color: black;
+  font-size: 24px;
+}
+.section-five .inner-box .inner-icon {
+  position: absolute;
+  background: white;
+  color: black;
+  width: 60px;
+  height: 60px;
+  top: -30px;
+  right: 30px;
+  border-radius: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+/* End Section five */
