@@ -576,3 +576,74 @@ html {
   font-weight: 600;
 }
 /* End Section eight */
+
+/* Section nine */
+.section-nine {
+  background: #31363b;
+}
+.section-nine .wrapper {
+  padding: 60px 0;
+}
+.section-nine .wrapper .header-wrap .inner-note {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+.section-nine .wrapper .header-wrap .inner-title {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 70px;
+  color: white;
+}
+.section-nine .wrapper .content-wrap {
+  margin-top: 60px;
+  display: flex;
+  gap: 35px;
+}
+.section-nine .wrapper .content-wrap .card-wrap {
+  width: calc(100% / 3);
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+}
+.section-nine .wrapper .content-wrap .card-wrap .inner-desc {
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.5;
+}
+.section-nine .wrapper .content-wrap .card-wrap .item-wrap {
+  margin-top: 36px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.section-nine .wrapper .content-wrap .card-wrap .item-wrap .inner-image {
+  width: 60px;
+}
+.section-nine .wrapper .content-wrap .card-wrap .item-wrap img {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 1 /1;
+  border-radius: 50%;
+}
+.section-nine .wrapper .content-wrap .card-wrap .item-wrap .name-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.section-nine .content-wrap .card-wrap .item-wrap .name-wrap .inner-name {
+  margin: 0;
+  font-size: 26px;
+  color: black;
+}
+.section-nine .content-wrap .card-wrap .item-wrap .name-wrap .inner-position {
+  margin: 0;
+}
+.section-nine .content-wrap .card-wrap .item-wrap .icon-wrap {
+  position: relative;
+  top: -60px;
+  right: -10px;
+  font-size: 45px;
+}
+/* End Section nine */
