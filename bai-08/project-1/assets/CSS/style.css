@@ -647,3 +647,105 @@ html {
   font-size: 45px;
 }
 /* End Section nine */
+
+/* Section ten */
+.section-ten {
+  background: #dce8eb;
+  padding: 80px 0;
+}
+.section-ten .wrapper .inner-header {
+  padding-bottom: 40px;
+}
+.section-ten .wrapper .inner-header .inner-title {
+  margin: 0;
+  font-size: 48px;
+  color: black;
+  text-align: center;
+}
+.section-ten .wrapper .video-wrap {
+  text-align: center;
+}
+/* End Section ten */
+
+/* Section eleven */
+.section-eleven {
+  padding: 60px 0;
+}
+.section-eleven .wrapper {
+  background: #dce8eb;
+  border-radius: 8px;
+  padding: 90px;
+}
+.section-eleven .wrapper .header-wrap .inner-note {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+.section-eleven .wrapper .header-wrap .inner-title {
+  margin: 0;
+  font-size: 54px;
+  color: black;
+  padding-top: 10px;
+}
+.section-eleven .wrapper .box-wrap {
+  padding-top: 50px;
+}
+.section-eleven .wrapper .box-wrap .inner-form {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  justify-content: space-around;
+}
+.section-eleven .wrapper .box-wrap .inner-input {
+  width: calc(100% / 3 - 10px);
+  padding: 18px;
+  border-radius: 8px;
+  border: none;
+}
+.section-eleven .wrapper .box-wrap .inner-form .details {
+  width: 100%;
+  margin-top: 20px;
+  border: none;
+  border-radius: 8px;
+  padding: 18px;
+}
+.section-eleven .wrapper .box-wrap .inner-form .button-wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.section-eleven .wrapper .box-wrap .inner-form .button-four {
+  width: 180px;
+  background: black;
+  color: white;
+  font-weight: 600;
+  margin-top: 20px;
+}
+/* End Section eleven */
+
+/* Section twelve */
+.section-twelve {
+  background: #121212;
+  height: 480px;
+}
+.section-twelve .inner-note {
+  margin: 0;
+  font-size: 14px;
+  padding-top: 16px;
+  padding-left: 5px;
+  color: white;
+}
+/* End Section twelve */
+
+/* Footer */
+.footer {
+  background: #14191e;
+  padding: 35px;
+}
+.footer .inner-copyright {
+  margin: 0;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+/* End Footer */
